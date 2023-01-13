@@ -1,6 +1,6 @@
 # Resume
 
-My resume based on [this template](https://github.com/billryan/resume) and [JmPotato/resume(https://github.com/JmPotato/resume).
+My resume based on [this template](https://github.com/billryan/resume) and [JmPotato/resume](https://github.com/JmPotato/resume).
 
 ## Requirements
 

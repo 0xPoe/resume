@@ -21,14 +21,6 @@
 \section{\faUsers\ \en{Work Experience}\zh{工作经历}}
 \en{\datedsubsection{\textbf{\href{https://pingcap.com/en/}{PingCAP Inc.}}, Chengdu, China}{08/2020 -- Present}}
 \zh{\datedsubsection{\textbf{\href{https://pingcap.com/zh/}{北京平凯星辰科技发展有限公司（PingCAP Inc.）}}}{2020/08 -- 至今}}
-\en{\role{Community Front-end and Back-end R\&D}{\href{https://github.com/ti-community-infra/tichi}{TiChi} R\&D}}
-\zh{\role{社区前后端开发工程师}{\href{https://github.com/ti-community-infra/tichi}{TiChi} 研发}}
-\begin{itemize}
-      \item \en{Responsible for designing and building the entire project, building collaborative robots on GKE using Prow.}
-            \zh{负责设计和构建整个项目，使用 Prow 在 GKE 上搭建协作机器人。}
-      \item \en{Fixed bugs and added features for Prow, submitted 39 PRs.}
-            \zh{为 Prow 修复 bug 和添加功能，提交了 39 个 PR。}
-\end{itemize}
 \en{\role{Database R\&D}{\href{https://github.com/pingcap/tiflow}{TiCDC} R\&D}}
 \zh{\role{数据库研发}{\href{https://github.com/pingcap/tiflow}{TiCDC} 研发工程师}}
 \begin{itemize}
@@ -43,6 +35,14 @@
       \item \en{Ported the project's integration tests to Docker so that they could run locally, greatly improving development efficiency. I also optimized the test scripts and reduced CI time consumption from 40 minutes to 20 minutes.}
             \zh{将该项目的集成测试移植到 Docker 中，使其能在本地运行，极大的提升了开发效率。同时优化了测试脚本，将 CI 时间消耗从 40 分钟降低至 20 分钟。}
 \end{itemize}
+\en{\role{Community Front-end and Back-end R\&D}{\href{https://github.com/ti-community-infra/tichi}{TiChi} R\&D}}
+\zh{\role{社区前后端开发工程师}{\href{https://github.com/ti-community-infra/tichi}{TiChi} 研发}}
+\begin{itemize}
+      \item \en{Responsible for designing and building the entire project, building collaborative robots on GKE using Prow.}
+            \zh{负责设计和构建整个项目，使用 Prow 在 GKE 上搭建协作机器人。}
+      \item \en{Fixed bugs and added features for Prow, submitted 39 PRs.}
+            \zh{为 Prow 修复 bug 和添加功能，提交了 39 个 PR。}
+\end{itemize}
 
 \en{\datedsubsection{\textbf{\href{https://www.morningstar.com/}{Morningstar, Inc.}}, Shenzhen, China}{06/2019 -- 07/2020}}
 \zh{\datedsubsection{\textbf{\href{https://www.morningstar.com/}{晨星资讯（Morningstar, Inc. ）}}}{2019/06 -- 2020/07}}
@@ -53,8 +53,8 @@
             \zh{负责独立组件的编写和维护，使用 springboot 和 Vue 开发。多个组件已经上线使用，有较好的稳定性和性能。}
       \item \en{Responsible for designing the tracking system design and implementation, using HeapIO to track user information, with a scalable interface to seamlessly switch to Google Analytics.}
             \zh{负责设计和实现前端 tracking 系统，使用 HeapIO 追踪用户信息，并预留可扩展接口，可无缝切换至 Google Analytics。}
-      \item \en{Write automated Jenkins scripts for component and document releases, optimizing the release process from a manual 4-hour process to a fully automated 30-minute process.}
-            \zh{为组件和文档发布编写自动化 Jenkins 脚本，将发布流程从手动 4 小时优化到全自动 30 分钟。}
+      \item \en{Wrote automated Jenkins scripts for component and document releases, optimizing the release process from a manual 4-hour process to a fully automated 30-minute process.}
+            \zh{为组件和文档发布编写了自动化 Jenkins 脚本，将发布流程从手动 4 小时优化到全自动 30 分钟。}
       \item \en{Optimized the company's front-end scaffolding to support TypeScript, added prettier to unify code formatting, and unify ESLint rules.}
             \zh{优化公司前端脚手架，使其支持 TypeScript，添加 prettier 统一代码格式，优化统一 ESLint 规则。}
 \end{itemize}
@@ -69,24 +69,22 @@
 
 \section{\faGithubAlt\ \en{Open Source Project}\zh{开源项目}}
 \datedsubsection{\textbf{Cargo \& Rustup}}{\url{https://github.com/rust-lang}}
-\en{\role{Maintainer}{\href{https://github.com/search?q=repo:rust-lang/cargo+repo:rust-lang/rustup++author:hi-rustin&type=commits}{220+ commits}}}
-\zh{\role{维护者}{\href{https://github.com/search?q=repo:rust-lang/cargo+repo:rust-lang/rustup++author:hi-rustin&type=commits}{220+ 个提交}}}
+\en{\role{Active Maintainer}{\href{https://github.com/search?q=repo:rust-lang/cargo+repo:rust-lang/rustup++author:hi-rustin&type=commits}{260+ commits}}}
+\zh{\role{活跃维护者}{\href{https://github.com/search?q=repo:rust-lang/cargo+repo:rust-lang/rustup++author:hi-rustin&type=commits}{260+ 个提交}}}
 \begin{itemize}
-      \item \en{Improved the error prompt for a number of Cargo commands to make errors more effective and clear.}
-            \zh{改善了大量 Cargo 命令的错误提示，让错误更有效更清晰。}
+      \item \en{Improved various error prompts for Rustup and Cargo commands to make errors to effective and clear.}
+            \zh{改善了大量 Rustup 和 Cargo 命令的错误提示，让错误更有效更清晰。}
       \item \en{Added the --crate-type function and added related documentation for Cargo.}
             \zh{为 Cargo 添加了 --crate-type 功能和相关文档。}
-      \item \en{Improved the error prompt for a number of Rustup commands to make errors more effective and clear.}
-            \zh{改善了大量 Rustup 命令的错误提示，让错误更有效更清晰。}
-      \item \en{Self-update different modes are supported for Rustup to provide a better experience.}
-            \zh{为 Rustup 支持了 self-update 不同模式来提供更好的使用体验。}
+      \item \en{Different modes of self-update were supported for Rustup to provide a better experience.}
+            \zh{为 Rustup 支持了 self-update 的不同模式来提供更好的使用体验。}
       \item \en{Improve Rustup testing and be responsible for releasing Rustup.}
             \zh{改善 Rustup 测试，负责发布 Rustup。}
 \end{itemize}
 
 \datedsubsection{\textbf{ant-design}}{\url{https://github.com/ant-design/ant-design}}
-\en{\role{Maintainer}{\href{https://github.com/ant-design/ant-design/commits?author=hi-rustin}{24+ commits}}}
-\zh{\role{维护者}{\href{https://github.com/ant-design/ant-design/commits?author=hi-rustin}{24+ 个提交}}}
+\en{\role{Previous Maintainer}{\href{https://github.com/ant-design/ant-design/commits?author=hi-rustin}{24+ commits}}}
+\zh{\role{前维护者}{\href{https://github.com/ant-design/ant-design/commits?author=hi-rustin}{24+ 个提交}}}
 \begin{itemize}
       \item \en{Refactoring the Input component (adding a clear content button, refactoring the entire Input component for reuse code)}
             \zh{重构 Input 组件（添加一个清除内容按钮，为了复用代码重构整个 Input 组件）}
@@ -96,20 +94,20 @@
 
 \section{\faCogs\ \en{Skills}\zh{技能}}
 \begin{itemize}[parsep=0.25ex]
-      \item \en{\textbf{Programming Language}:
+      \item \en{\textbf{Programming Languages}:
                   Experienced in Go/Rust/JavaScript,
-                  \textbf{multilingual} (not limited to any specific language)}
+                  \textbf{multilingual} (can adapt to any language)}
             \zh{\textbf{编程语言}:
                   熟悉 Go/Rust/JavaScript，
                   \textbf{泛语言}（编程不受特定语言限制）}
 
-      \item \en{\textbf{Developing Tool}:
+      \item \en{\textbf{Development Tools}:
                   familiar with Linux-based programming,
                   have experience with team tools like Git, GitHub, Slack, and Jira, etc.}
             \zh{\textbf{开发工具}:
                   熟悉 Linux，有 Git、GitHub、Slack 和 Jira 等团队协作工具的使用经验}
 
-      \item \en{\textbf{Language}:
+      \item \en{\textbf{Languages}:
                   \textbf{English} (Can read, write and speak fluently),
                   \textbf{Chinese} (Native speaker)}
             \zh{\textbf{语言}:

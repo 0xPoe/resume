@@ -23,27 +23,55 @@
 \zh{\datedsubsection{\textbf{\href{https://pingcap.com/zh/}{北京平凯星辰科技发展有限公司（PingCAP Inc.）- 数据库 - 数据库研发}}}{2021/07 -- 至今}}
 \en{Transferred from the community department to the data platform department and started to focus on the development of data synchronization tools {\href{https://github.com/pingcap/tiflow}{TiCDC}}}
 \zh{从社区部门转组到数据平台部门，开始专注于数据同步工具 {\href{https://github.com/pingcap/tiflow}{TiCDC} 的研发}}
+
+\en{\textbf{Responsibilities:}}
+\zh{\textbf{职责：}}
 \begin{itemize}
-      \item \en{Rewrites TiCDC core data synchronization process, modifying the original push mode to pull mode to optimize memory management and data synchronization process. Provides more flexible task-level memory control, greatly improving OOM issues and throughput.}
-            \zh{重写 TiCDC 核心数据同步流程，将原来的推送模式修改为拉取模式优化了内存管理和数据同步流程。提供了更灵活的任务界别的内存控制，极大的改善了 OOM 问题和吞吐。}
-      \item \en{Rewrote the TiCDC Sink module to remove a lot of useless and harmful abstractions, changed from synchronous mode to asynchronous mode, and optimized code performance to improve throughput by 30\%.}
-            \zh{重写 TiCDC Sink 模块，删除了大量无用有害抽象，从同步模式修改为异步模式，优化代码性能，将吞吐提升 30\%。}
-      \item \en{Responsible for supporting the Multi-Topic feature for TiCDC Kafka Sink, allowing it to send data messages to multiple Topics based on table information.}
-            \zh{为 TiCDC Kafka Sink 支持了多 Topic 功能，让其可以根据表信息将数据消息发送至多个 Topics。}
-      \item \en{Responsible for refactoring all of TiCDC's CLI code, removing a lot of global variables and dead code, standardizing how commands are added and written, and greatly improving maintainability.}
-            \zh{负责重构了 TiCDC 的 CLI 所有代码，删除了大量全局变量和死代码，标准化命令添加和编写方式，极大提升了可维护性。}
-      \item \en{Ported the project's integration tests to Docker so that they could run locally, greatly improving development efficiency. I also optimized the test scripts and reduced CI time consumption from 40 minutes to 20 minutes.}
-            \zh{将该项目的集成测试移植到 Docker 中，使其能在本地运行，极大的提升了开发效率。同时优化了测试脚本，将 CI 时间消耗从 40 分钟降低至 20 分钟。}
+      \item \en{Responsible for the design, implementation and maintenance of core modules, mainly focusing on sink and sorter modules.}
+            \zh{负责核心模块的设计、实现和维护，主要聚焦于 sink 和 sorter 模块。}
+      \item \en{Responsible for the day-to-day maintenance of the project: issue tracking and resolution, code review and oncall to resolve customer issues.}
+            \zh{负责项目日常的维护：issue 追踪和解决、代码审阅和 oncall 解决客户问题。}
+      \item \en{Responsible for project code structure optimization, flaky test tracking, and CI/CD script optimization to improve engineering efficiency.}
+            \zh{负责项目代码结构优化、不稳定测试追踪，CI/CD 脚本优化，提升工程效率。}
+\end{itemize}
+
+\en{\textbf{Accomplishments:}}
+\zh{\textbf{产出：}}
+\begin{itemize}
+      \item \en{Changed push mode to pull mode to optimize memory management and data synchronization process, greatly improving OOM issues and throughput.}
+            \zh{将推送模式修改为了拉取模式优化了内存管理和数据同步流程，极大的改善了 OOM 问题和吞吐。}
+      \item \en{Modified the Sink module from synchronous to asynchronous mode to optimize code performance and improve throughput by 30\%.}
+            \zh{将 Sink 模块从同步模式修改为异步模式，优化代码性能，将吞吐提升 30\%。}
+      \item \en{Multi-Topic feature is supported for Kafka Sink, which greatly reduces the cost of multi-Topic task operation and maintenance.}
+            \zh{为 Kafka Sink 支持了多 Topic 功能，极大的降低了多 Topic 的任务运维成本。}
+      \item \en{Tracked and fixed a large number of flaky tests, greatly improving development efficiency. Optimized test scripts to reduce CI time consumption from 40 minutes to 20 minutes.}
+            \zh{追踪和修复大量不稳定测试，极大的提升了开发效率。优化了测试脚本，将 CI 时间消耗从 40 分钟降低至 20 分钟。}
+      \item \en{All of TiCDC's CLI code was refactored to standardize the way commands are added and written, greatly improving maintainability.}
+            \zh{重构了 TiCDC 的 CLI 所有代码，标准化了命令添加和编写方式，极大提升了可维护性。}
 \end{itemize}
 \en{\datedsubsection{\textbf{\href{https://pingcap.com/en/}{PingCAP Inc. - Database - Front-end and Back-end R\&D}}}{Aug 2020 -- July 2021}}
 \zh{\datedsubsection{\textbf{\href{https://pingcap.com/zh/}{北京平凯星辰科技发展有限公司（PingCAP Inc.）- 数据库 - 前后端开发工程师}}}{2020/08 -- 2021/07}}
-\en{Joined the community department and developed {\href{https://github.com/ti-community-infra/tichi}{TiChi}} from scratch to support community collaboration}
-\zh{加入了社区部门，从零开发{\href{https://github.com/ti-community-infra/tichi}{TiChi}} 来支撑社区协作}
+\en{Joined the community department to develop {\href{https://github.com/ti-community-infra/tichi}{TiChi}} to support community collaboration based on the Kubernetes Community Prow project}
+\zh{加入了社区部门，以 Kubernetes 社区 Prow 项目为基础开发{\href{https://github.com/ti-community-infra/tichi}{TiChi}} 来支撑社区协作}
+
+\en{\textbf{Responsibilities:}}
+\zh{\textbf{职责：}}
 \begin{itemize}
       \item \en{Responsible for designing and building the entire project, building collaborative robots on GKE using Prow.}
-            \zh{负责设计和构建整个项目，使用 Prow 在 GKE 上搭建协作机器人。}
+            \zh{负责从零开始设计和构建整个项目，使用 Prow 在 GKE 上搭建协作机器人。}
+      \item \en{Responsible for sorting out and optimizing the community collaboration process to provide a better collaboration experience for open source contributors.}
+            \zh{负责社区协作流程的梳理和优化，为开源贡献者提供更好的协作体验。}
+\end{itemize}
+
+\en{\textbf{Accomplishments:}}
+\zh{\textbf{产出：}}
+\begin{itemize}
+      \item \en{TiChi has become the company's CI/CD infrastructure, having completed the project design and development on time.}
+            \zh{按时完成了项目的设计和开发，TiChi 已经成为了公司 CI/CD 的基础设施。}
       \item \en{Fixed bugs and added features for Prow, submitted 39 PRs.}
             \zh{为 Prow 修复 bug 和添加功能，提交了 39 个 PR。}
+      \item \en{Well documented for TiChi, clarifying the collaboration process and providing a better collaborative experience for open source contributors.}
+            \zh{为 TiChi 编写了良好的文档，明确了协作流程，为开源贡献者提供了更好的协作体验。}
 \end{itemize}
 
 \en{\datedsubsection{\textbf{\href{https://www.morningstar.com/}{Morningstar, Inc. - Financial Services - Front-end and Back-end R\&D}}}{June 2019 -- July 2020}}

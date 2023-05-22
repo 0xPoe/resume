@@ -1,10 +1,10 @@
 # Download/下载
 
-- [English version (pdf)](./resume.pdf)
-- [中文版 (pdf)](./resume-zh.pdf)
-- [LaTeX Source](./resume.tex)
+- [English version (pdf)](./software_engineer_rustin_liu.pdf)
+- [中文版 (pdf)](./软件工程师_刘东坡.pdf)
+- [LaTeX Source](./software_engineer_rustin_liu.tex)
 
-# Resume
+## Resume
 
 My resume based on [this template](https://github.com/billryan/resume) and [JmPotato/resume](https://github.com/JmPotato/resume).
 

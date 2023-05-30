@@ -16,7 +16,7 @@ My resume based on [this template](https://github.com/billryan/resume) and [JmPo
     brew install mactex --cask
     ```
 
-2. Install fonts from [here](https://github.com/adobe-fonts/source-han-sans/tree/release).
+2. Install fonts from [here](https://github.com/adobe-fonts/source-han-serif).
 
 ## Build
 

@@ -75,8 +75,8 @@
             \zh{将 Sink 模块从同步模式修改为异步模式，优化代码性能，将增量场景下吞吐提升 30\%。}
       \item \en{ Added multi-topic feature for Kafka Sink, which greatly reduced the cost of operation and maintenance.}
             \zh{为 Kafka Sink 支持了多 Topic 功能，极大的降低了多 Topic 的任务运维成本。}
-      \item \en{Tracked and fixed a large number of flaky tests, greatly improving development efficiency. Optimized test scripts to reduce CI time consumption from 40 minutes to 20 minutes.}
-            \zh{追踪和修复大量不稳定测试，极大的提升了开发效率。优化了测试脚本，将 CI 时间消耗从 40 分钟降低至 20 分钟。}
+      \item \en{Added the ability to optimize the Lossy DDL from full table scan to not synchronizing any data, greatly reducing the impact of DDL on the system.}
+            \zh{将有损 DDL 从全表扫描优化为不同步任何数据，极大的降低了有损 DDL 对系统的影响。}
       \item \en{Refactored all of TiCDC’s CLI code to standardize the way commands are added and written, which greatly improved maintainability.}
             \zh{重构了 TiCDC 的 CLI 所有代码，标准化了命令添加和编写方式，极大提升了可维护性。}
 \end{itemize}
@@ -145,6 +145,8 @@
             \zh{为 Cargo 添加了 --crate-type 功能和相关文档。}
       \item \en{Added support for automatic inheritance of the [workspace.package] fields for the cargo new/init commands.}
             \zh{为 cargo new 和 cargo init 命令支持了 [workspace.package] 字段自动继承。}
+      \item \en{Added new syntax for Cargo build scripts to provide a foundation for future extensions to build scripts.}
+            \zh{为 Cargo 构建脚本添加新的语法，为未来扩展构建脚本提供基础。}
       \item \en{Added OR\_PATTERNS\_BACK\_COMPAT lint to help users migrate to the new or\-patterns syntax.}
             \zh{添加了 OR\_PATTERNS\_BACK\_COMPAT lint 来帮助用户迁移至新的 or\-patterns 语法。}
       \item \en{Made authors field optional in Cargo, crates.io and rustdoc.}
@@ -165,22 +167,6 @@
             \zh{为 Rustup 添加了 UI 测试，顺利升级了 clap 依赖。}
       \item \en{Responsible for the daily maintenance of the project, including code review, security vulnerability fixing, etc.}
             \zh{负责项目日常维护，包括代码审查、依赖升级、安全漏洞修复等。}
-\end{itemize}
-
-\en{\datedsubsection{\textbf{Phlare - Active Contributor}}{{\href{https://github.com/grafana/phlare/commits?author=hi-rustin}{28+ commits}}}}
-\zh{\datedsubsection{\textbf{Phlare - 活跃贡献者}}{{\href{https://github.com/grafana/phlare/commits?author=hi-rustin}{28+ commits}}}}
-\en{\textsl{Horizontally-scalable, highly-available, multi-tenant continuous profiling aggregation system.}}
-\zh{\textsl{水平扩展、高可用、多租户的持续性能分析聚合系统。}}
-
-\begin{itemize}
-      \item \en{Refactored all command line flags and added flags descriptions and tests.}
-            \zh{重构了所有命令行参数，并添加了参数说明和测试。}
-      \item \en{Added a management page to show the status of each component.}
-            \zh{添加了管理页面展示各组件状态。}
-      \item \en{Refactored all APIs to make them easier to write and test.}
-            \zh{重构了所有 API 使其更容易编写和测试。}
-      \item \en{Added linter and formatter to the project.}
-            \zh{为项目添加了 linter 和 formatter。}
 \end{itemize}
 
 \en{\datedsubsection{\textbf{ant-design - Previous Maintainer}}{{\href{https://github.com/ant-design/ant-design/commits?author=hi-rustin}{24+ commits}}}}

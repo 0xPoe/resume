@@ -73,8 +73,8 @@
             \zh{将推送模式修改为了拉取模式优化了内存管理和数据同步流程，极大的改善了 OOM 问题和同步延迟。}
       \item \en{Modified the Sink module from synchronous to asynchronous mode to optimize code performance and improve throughput by 30\% in incremental scenarios.}
             \zh{将 Sink 模块从同步模式修改为异步模式，优化代码性能，将增量场景下吞吐提升 30\%。}
-      \item \en{ Added multi-topic feature for Kafka Sink, which greatly reduced the cost of operation and maintenance.}
-            \zh{为 Kafka Sink 支持了多 Topic 功能，极大的降低了多 Topic 的任务运维成本。}
+      \item \en{ Added multi-topic and OAuth authorization support for Kafka Sink, greatly reducing the operation and maintenance costs of multi-topic tasks.}
+            \zh{为 Kafka Sink 支持了多 Topic 和 OAuth 授权功能，极大的降低了多 Topic 的任务运维成本。}
       \item \en{Added the ability to optimize the Lossy DDL from full table scan to not synchronizing any data, greatly reducing the impact of DDL on the system.}
             \zh{将有损 DDL 从全表扫描优化为不同步任何数据，极大的降低了有损 DDL 对系统的影响。}
       \item \en{Refactored all of TiCDC’s CLI code to standardize the way commands are added and written, which greatly improved maintainability.}

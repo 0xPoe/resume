@@ -68,10 +68,10 @@
 \en{\textbf{Accomplishments:}}
 \zh{\textbf{产出：}}
 \begin{itemize}
+      \item \en{Designed and implemented the priority queue for speed up the auto analyze process, significantly reducing the starvations of the auto analyze process.}
+      \zh{设计并实现了优先级队列，加速了自动分析过程，极大的减少了自动分析过程的饥饿现象。}
       \item \en{Added support for the LOCK STATS TABLE feature to allow users to lock statistics updates and generate stable execution plans.}
       \zh{添加 LOCK STATS TABLE 功能，方便用户锁定统计信息的更新，生成稳定的执行计划。}
-      \item \en{Deleted a large number of deprecated code, greatly improving the maintainability of the code.}
-      \zh{删除了大量弃用功能代码，极大的改善了代码可维护性。}
 \end{itemize}
 
 \en{\datedsubsection{\textbf{\href{https://pingcap.com/en/}{PingCAP Inc. - Database - Database Tools R\&D(Golang/Rust)}}}{July 2021 -- July 2023}}
@@ -120,8 +120,6 @@
             \zh{按时完成了项目的设计和开发，TiChi 已经成为了公司 CI/CD 的基础设施。}
       \item \en{Fixed bugs and added features for Prow, submitted 39 PRs.}
             \zh{为 Prow 修复 bug 和添加功能，提交了 39 个 PR。}
-      \item \en{Added multiple language documents for collaboration process and TiChi.}
-            \zh{为 TiChi 编写了良好的文档，明确了协作流程，为开源贡献者提供了更好的协作体验。}
 \end{itemize}
 
 \en{\datedsubsection{\textbf{\href{https://www.morningstar.com/}{Morningstar, Inc. - Financial Services - Full-Stack Engineer(Java/JS)}}}{June 2019 -- July 2020}}
@@ -178,13 +176,10 @@
 \begin{itemize}
       \item \en{Works with all registries that are compatible with Cargo.}
             \zh{兼容所有与 Cargo 兼容的注册中心。}
-      \item \en{Fetches and displays basic package information (name, version, owners, etc.)}
-            \zh{获取并显示基本的包信息（名称、版本、所有者等）。}
-      \item \en{Shows package dependencies and their versions.}
-            \zh{显示包依赖及其版本。}
-      \item \en{Provides information about package features.}
-            \zh{提供包的 features 信息。}
-
+      \item \en{Fetches and displays basic package information (name, version, owners, features, dependencies, etc.).}
+            \zh{获取并显示基本的包信息（名称、版本、所有者、features、依赖等）。}
+      \item \en{Compatible with MSRV (Minimum Supported Rust Version) matching.}
+            \zh{兼容 MSRV（最小支持 Rust 版本）匹配。}
 \end{itemize}
 
 \en{\datedsubsection{\textbf{tokio-console-web(TypeScript/Rust) - Author}}{{\href{https://github.com/hi-rustin/tokio-console-web}{385+ commits}}}}
@@ -199,7 +194,6 @@
             \zh{显示每个任务的详细信息，包括任务的轮询（忙碌）时间的柱状图。}
       \item \en{Displays the resources, such as synchronization primitives, I/O resources, etc., used by each task.}
             \zh{显示每个任务使用的资源，如同步原语、I/O 资源等。}
-
 \end{itemize}
 
 

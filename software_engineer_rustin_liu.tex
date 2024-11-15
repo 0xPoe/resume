@@ -68,6 +68,10 @@
 \en{\textbf{Accomplishments:}}
 \zh{\textbf{产出：}}
 \begin{itemize}
+      \item \en{Optimized statistics collection by implementing an in-memory priority queue, eliminating repeated queue rebuilding overhead, reducing CPU usage by one core and memory consumption by 99\%.}
+      \zh{通过实现内存中的优先级队列优化统计信息收集，消除重复队列重建开销，减少一个 CPU 核心使用率并降低 99\% 内存消耗。}
+      \item \en{Designed and implemented the predicate columns feature to optimize statistics collection by only analyzing columns used in predicates, reducing auto analyze time by 50\% in OLTP workloads and nearly 99\% in partitioned wide table scenarios.}
+      \zh{设计和实现了 predicate columns 功能，通过只分析谓词中使用的列来优化统计信息收集，在 OLTP 工作负载下将自动分析时间减少了 50\%，在分区宽表场景下提升近 99\%。}
       \item \en{Designed and implemented the priority queue for speed up the auto analyze process, significantly reducing the starvations of the auto analyze process.}
       \zh{设计并实现了优先级队列，加速了自动分析过程，极大的减少了自动分析过程的饥饿现象。}
       \item \en{Added support for the LOCK STATS TABLE feature to allow users to lock statistics updates and generate stable execution plans.}
@@ -152,6 +156,8 @@
 \zh{\textsl{Rust 包管理器，Cargo 下载 Rust 包的依赖，编译包，制作可分发的包。}}
 
 \begin{itemize}
+      \item \en{Implemented the `cargo-info` subcommand to display detailed information about a Rust package.}
+            \zh{为 Cargo 实现了 `cargo-info` 子命令来展示包的详细信息。}
       \item \en{Improved various error prompts for Cargo commands and the Rust compiler to make errors to effective and clear.}
             \zh{改善了大量 Cargo 命令和 Rust 编译器的错误提示，让错误更有效更清晰。}
       \item \en{Added the --crate-type function and added related documentation for Cargo.}
@@ -168,19 +174,6 @@
             \zh{使 authors 字段在 Cargo 和 rustdoc 中可选。}
 \end{itemize}
 
-\en{\datedsubsection{\textbf{cargo-information(Rust) - Author}}{{\href{https://github.com/hi-rustin/cargo-information}{270+ commits}}}}
-\zh{\datedsubsection{\textbf{cargo-information(Rust) - 作者}}{{\href{https://github.com/hi-rustin/cargo-information}{270+ commits}}}}
-\en{\textsl{cargo-info is a tool that provides detailed information about a Rust package.}}
-\zh{\textsl{cargo-info 是一个提供 Rust 包详细信息的工具。}}
-
-\begin{itemize}
-      \item \en{Works with all registries that are compatible with Cargo.}
-            \zh{兼容所有与 Cargo 兼容的注册中心。}
-      \item \en{Fetches and displays basic package information (name, version, owners, features, dependencies, etc.).}
-            \zh{获取并显示基本的包信息（名称、版本、所有者、features、依赖等）。}
-      \item \en{Compatible with MSRV (Minimum Supported Rust Version) matching.}
-            \zh{兼容 MSRV（最小支持 Rust 版本）匹配。}
-\end{itemize}
 
 \en{\datedsubsection{\textbf{tokio-console-web(TypeScript/Rust) - Author}}{{\href{https://github.com/hi-rustin/tokio-console-web}{385+ commits}}}}
 \zh{\datedsubsection{\textbf{tokio-console-web(TypeScript/Rust) - 作者}}{{\href{https://github.com/hi-rustin/tokio-console-web}{385+ commits}}}}
@@ -209,8 +202,8 @@
             \zh{支持下划线前缀的重命名包在 crates.io 的发布。}
       \item \en{Aligned crates.io and Cargo on the naming rules for features and crates.}
             \zh{对齐了 crates.io 和 Cargo 对 feature 和 crate 的名称校验规则。}
-      \item \en{Fixed flaky tests and improved documentation to improve code maintainability.}
-            \zh{修复不稳定测试，完善文档，提升代码可维护性。}
+      \item \en{Implemented token expiration notifications and one-click token copying to improve user experience.}
+            \zh{实现了 token 过期提醒和一键复制功能以提升用户体验。}
 \end{itemize}
 
 

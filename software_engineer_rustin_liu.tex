@@ -68,6 +68,8 @@
 \en{\textbf{Accomplishments:}}
 \zh{\textbf{产出：}}
 \begin{itemize}
+      \item \en{Optimized the update of statistics for millions of tables, reducing the update duration from 1.5 hours to about 10 seconds.}
+      \zh{优化了百万张表的统计信息更新，将更新延迟从 1.5 小时缩短至约 10 秒。}
       \item \en{Optimized statistics collection by implementing an in-memory priority queue, eliminating repeated queue rebuilding overhead, reducing CPU usage by one core and memory consumption by 99\%.}
       \zh{通过实现内存中的优先级队列优化统计信息收集，消除重复队列重建开销，减少一个 CPU 核心使用率并降低 99\% 内存消耗。}
       \item \en{Designed and implemented the predicate columns feature to optimize statistics collection by only analyzing columns used in predicates, reducing auto analyze time by 50\% in OLTP workloads and nearly 99\% in partitioned wide table scenarios.}

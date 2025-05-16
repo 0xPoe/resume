@@ -1,8 +1,8 @@
 # Download/下载
 
-- [English version (pdf)](./software_engineer_rustin_liu.pdf)
+- [English version (pdf)](./software_engineer_poe_liu.pdf)
 - [中文版 (pdf)](./软件工程师_刘东坡.pdf)
-- [LaTeX Source](./software_engineer_rustin_liu.tex)
+- [LaTeX Source](./software_engineer_poe_liu.tex)
 
 ## Resume
 

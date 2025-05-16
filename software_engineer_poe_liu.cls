@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{software_engineer_rustin_liu}[2015/05/25 An elegant Résumé class]
+\ProvidesClass{software_engineer_poe_liu}[2015/05/25 An elegant Résumé class]
 \LoadClass[10pt]{article}
 
 % disable indent globally
